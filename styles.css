@@ -1,0 +1,82 @@
+body{
+    background-color: #0e004f;
+    color: white;
+    font-family:'Arial Black';
+}
+
+.setup{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.setup p,span{
+    text-align: center;
+    font-size: 25px;
+}
+
+.setup button{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.setup button:hover{
+    color: #aef;
+}
+
+.pomodoro{
+    border-radius: 50%;
+    border: solid 2px #aef;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pomodoro p{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.break-text{
+    margin-top: 10px !important;
+    visibility: hidden;
+    font-size: 25px;
+}
+
+.controls button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #aef;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+}
+
+.controls button:hover{
+    background-color: #aef;
+}
+
+.cord{
+    padding-top:100px;
+    width:15px;
+    transform: rotate(0deg);
+    transform-origin:50% 50%;
+    float:left;
+}
+footer{
+    text-align: center;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 12px;
+}

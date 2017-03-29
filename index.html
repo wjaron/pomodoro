@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pomodoro APP</title>
+    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script language="JavaScript" type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div class="fluid-container">
+    <h1 class="text-center">Pomodoro Timer</h1>
+    <div class="setup row">
+        <div class="col-md-6 col-sm-6 col-lg-6">
+            <p>
+                Break
+                <br>
+                <button class="break" id="breakSub">-</button>
+                <span class="break" id="breakTime">5</span>
+                <button class="break" id="breakAdd">+</button>
+            </p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6">
+            <p>
+                Session
+                <br>
+                <button id="totSub">-</button>
+                <span id="totTime">25</span>
+                <button id="totAdd">+</button>
+            </p>
+        </div>
+    </div>
+    <div class="pomodoro">
+        <p id="time-display">25:00</p>
+        <p id="break-text" class="break-text">
+            Break!
+        </p>
+    </div>
+    <div class="controls text-center">
+        <button type="button" id="stop">Stop</button>
+        <button type="button" id="start">Start</button>
+        <button type="button" id="reset">Reset</button>
+    </div>
+</div>
+</body>
+<footer>
+    Github link: <a href="https://github.com/wjaron/pomodoro" target="_blank">click</a>.
+
+    Copyright: WJ.
+</footer>
+</html>
